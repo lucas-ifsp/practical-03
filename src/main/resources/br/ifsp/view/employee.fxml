@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="350.0" prefWidth="218.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.ifsp.controller.EmployeeController">
+   <children>
+      <TextField fx:id="txtId" layoutX="14.0" layoutY="21.0" prefHeight="25.0" prefWidth="188.0" promptText="ID" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="21.0" />
+      <TextField fx:id="txtName" layoutX="14.0" layoutY="70.0" prefHeight="25.0" prefWidth="188.0" promptText="Name" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="70.0" />
+      <TextField fx:id="txtSoldValue" layoutX="14.0" layoutY="175.0" prefHeight="25.0" prefWidth="188.0" promptText="Sould Value" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="175.0" />
+      <DatePicker fx:id="datePicker" layoutX="14.0" layoutY="122.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="122.0" />
+      <ComboBox fx:id="cbInCharge" layoutX="14.0" layoutY="221.0" prefHeight="25.0" prefWidth="188.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="221.0" />
+      <Button fx:id="btnExecute" layoutX="114.0" layoutY="278.0" mnemonicParsing="false" onAction="#execute" prefHeight="37.0" prefWidth="83.0" text="Save" AnchorPane.bottomAnchor="35.0" AnchorPane.rightAnchor="15.0" />
+   </children>
+</AnchorPane>
